@@ -1,0 +1,28 @@
+.menu-bar__container {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  position: fixed;
+  z-index: 99;
+
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.menu-item {
+  margin: auto;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+
+  list-style: none;
+}
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: blue;
+    text-transform: uppercase;
+  }
+}
